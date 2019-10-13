@@ -34,6 +34,15 @@ body {
 	color: var(--wwc-teal);
 }
 
+.card {
+	width: 200px;
+}
+
+.card-img-top {
+	padding: 16px;
+	height: 200px;
+}
+
 .card a:link, .card a:visited, .card a:active {
 	font-family: 'Hind', sans-serif;
 	color: var(--wwc-teal);
