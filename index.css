@@ -7,7 +7,10 @@ body {
   color: var(--wwc-gray);
 }
 
-
+img {
+	max-width: 100%;
+	height: auto;
+}
 
 .page-header {
 	margin: 60px auto;
@@ -36,6 +39,7 @@ body {
 
 .card {
 	width: 200px;
+	margin: 20px auto;
 }
 
 .card-img-top {
