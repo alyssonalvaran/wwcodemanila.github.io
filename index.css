@@ -1,8 +1,44 @@
+:root {
+	--wwc-gray: #48484A;
+	--wwc-teal: #007a7c;
+}
+
 body {
-  color: #48484A;
+  color: var(--wwc-gray);
+}
+
+
+
+.page-header {
+	margin: 60px auto;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .fab {
   font-size: 30px;
-  color: #007a7c;
+  color:  var(--wwc-teal);
+}
+
+.social-media-links h2 {
+	margin: 0.5em 0;
+	color: var(--wwc-gray);
+}
+
+.social-media-links a:link, .social-media-links a:visited, .social-media-links a:active {
+	margin: 0 8px;
+	color: var(--wwc-gray);
+}
+
+.social-media-links a:hover {
+	text-decoration: none;
+	color: var(--wwc-teal);
+}
+
+.card a:link, .card a:visited, .card a:active {
+	font-family: 'Hind', sans-serif;
+	color: var(--wwc-teal);
+}
+
+.card a:hover {
+	color: var(--wwc-gray);
 }
